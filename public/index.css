@@ -1,0 +1,74 @@
+body {
+   font-family: 'Roboto', sans-serif;
+}
+h1 {
+   text-align: center;
+}
+.main-nav {
+   text-align: center;
+}
+.main-nav a {
+   text-decoration: none;
+   padding: 5px 10px;
+   margin: 10px 5px;
+   border-radius: 5px;
+   background-color: gray;
+   color: white;
+}
+/* Post Index */
+ul {
+   list-style-type: none;
+   padding-left: 0;
+}
+.post-item {
+   border: .5px solid gray;
+   margin: 5px auto;
+   padding: 10px 10px;
+   border-radius: 3px;
+}
+
+/* Input */
+.form-group {
+   width: 80%;
+   margin: 0 auto;
+}
+.field {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto 30px;
+}
+label {
+   margin-right: 20px;
+   margin-bottom: 10px;
+   font-size: 1.2em;
+   font-weight: 600;
+}
+.input {
+   
+   height: 20px;
+   border-radius: 3px;
+   border: 1px solid gray;
+}
+.red {
+   border-color: red;
+}
+.error-message {
+   color: red;
+}
+/* Button */
+.button {
+   text-decoration: none;
+   border: 1px solid white;
+   padding: 7px 7px;
+   margin-right: 10px;
+   font-size: 1em;
+   background-color: blue;
+   color: white;
+   border-radius: 5px;
+   font-family: 'Roboto',
+   sans-serif;
+   cursor: pointer;
+}
+.cancel {
+   background-color: red;
+}
